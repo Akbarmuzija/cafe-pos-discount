@@ -1,0 +1,14 @@
+
+*{box-sizing:border-box}
+body{background:#f4f7f6;font-family:Inter, Poppins, sans-serif}
+.navbar{background:#054d2f !important}
+.navbar .navbar-brand{font-weight:700}
+.card{border-radius:12px;box-shadow:0 6px 18px rgba(2,48,22,0.06)}
+.title{color:#054d2f;font-weight:700}
+.btn-dark{background:#054d2f;border-color:#054d2f}
+.btn-dark:hover{background:#043a24}
+.btn-outline-light{color:#fff;border-color:rgba(255,255,255,0.2)}
+.table-striped>tbody>tr:nth-of-type(odd){background-color:#f9fff9}
+
+
+@media(max-width:576px){.card{padding:16px}}
